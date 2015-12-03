@@ -1,0 +1,73 @@
+{
+  "data": {
+    "user": [
+      {
+        "value": "123",
+        "createdAt": "2015-12-03T17:32:28.175Z",
+        "updatedAt": "2015-12-03T17:32:28.175Z",
+        "id": 20
+      },
+      {
+        "value": "Trần Công Đạo",
+        "createdAt": "2015-12-03T17:33:24.637Z",
+        "updatedAt": "2015-12-03T17:33:24.637Z",
+        "id": 21
+      },
+      {
+        "value": "13123",
+        "createdAt": "2015-12-03T17:34:24.664Z",
+        "updatedAt": "2015-12-03T17:34:24.664Z",
+        "id": 22
+      }
+    ],
+    "todo": [
+      {
+        "value": "12321",
+        "createdAt": "2015-12-03T17:37:20.976Z",
+        "updatedAt": "2015-12-03T17:37:20.976Z",
+        "id": 7
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "value": {
+        "type": "text"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "todo": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 22
+    },
+    "todo": {
+      "id": 7
+    }
+  }
+}
