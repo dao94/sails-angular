@@ -1,3 +1,3 @@
-# Todo Application in Angular.js + Sails.js
+# Application in Angular.js + Sails.js
 # sails-angular
 # sails-angular
